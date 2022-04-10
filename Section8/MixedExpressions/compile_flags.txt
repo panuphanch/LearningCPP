@@ -1,0 +1,4 @@
+-IC:\code\LearningCPP\Section8\MixedExpressions
+-std=c++14
+-target
+

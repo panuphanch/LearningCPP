@@ -1,0 +1,4 @@
+-IC:\code\LearningCPP\Section6\InitializingVariables
+-std=c++17
+-target
+

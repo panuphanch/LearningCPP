@@ -1,0 +1,4 @@
+-IC:\code\LearningCPP\Section4\Project1
+-std=c++17
+-target
+

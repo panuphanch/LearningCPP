@@ -1,0 +1,4 @@
+-IC:\code\LearningCPP\Section9\ForLoop
+-std=c++14
+-target
+

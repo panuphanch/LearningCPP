@@ -1,0 +1,4 @@
+-IC:\code\LearningCPP\Section10\CPPStrings
+-std=c++14
+-target
+

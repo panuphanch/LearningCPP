@@ -1,0 +1,4 @@
+-IC:\code\LearningCPP\Section8\Euros
+-std=c++14
+-target
+

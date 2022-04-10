@@ -1,0 +1,4 @@
+-IC:\code\LearningCPP\Section4\FirstProgram
+-std=c++17
+-target
+

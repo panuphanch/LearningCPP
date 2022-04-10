@@ -1,0 +1,4 @@
+-IC:\code\LearningCPP\Section9\MultiplcationTable
+-std=c++14
+-target
+

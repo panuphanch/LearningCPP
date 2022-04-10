@@ -33,3 +33,7 @@
 
 # vscode
 .vscode
+
+# codelite
+.codelite
+Debug\
