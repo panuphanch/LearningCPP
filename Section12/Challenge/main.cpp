@@ -40,6 +40,9 @@
 
 using namespace std;
 
+void print(const int *const array, size_t);
+int * apply_all(const int *const array, size_t, const int *const array2, size_t);
+
 int main() {
     const size_t array1_size {5};
     const size_t array2_size {3};
@@ -58,9 +61,32 @@ int main() {
 
     cout << "Result: " ;
     print(results, results_size);
+
+    delete [] results;
     
     cout << endl;
 
     return 0;
 }
 
+void print(const int *const array1, size_t array1_size) {
+    cout << "[ ";
+    for (size_t i {0}; i < array1_size; i++) {
+        cout << array1[i] << " ";
+    }
+    cout << "]" << endl;
+}
+
+int* apply_all(const int *const array1, size_t array1_size, const int *const array2, size_t array2_size) {
+    int index {0};
+    int *results = new int[array1_size * array2_size];
+
+    for (size_t i {0}; i < array1_size; i++) {
+        for (size_t j {0}; j < array2_size; j++) {
+            // *(results + index++) = array1[i] * array2[j];
+            results[index] = array1[i] * array2[j];
+            index++;
+        }
+    }
+    return results;
+}
