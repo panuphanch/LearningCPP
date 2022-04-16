@@ -32,7 +32,7 @@ public:
     Mystring operator+=(const Mystring &rhs);
     Mystring operator*(int times) const;
     Mystring operator*=(int times);
-    Mystring &operator++();
+    Mystring operator++();
     Mystring operator++(int);
 };
 

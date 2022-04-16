@@ -154,7 +154,7 @@ Mystring Mystring::operator*=(int times) {
 }
 
 
-Mystring &Mystring::operator++() {
+Mystring Mystring::operator++() {
     for (size_t i = 0; i < std::strlen(str); i++) {
         str[i] = std::toupper(str[i]);
     }
